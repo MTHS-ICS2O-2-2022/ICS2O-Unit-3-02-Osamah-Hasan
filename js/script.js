@@ -18,5 +18,5 @@ function calculate () {
   const Volume = (L * H * W) / 3
 
   // output
-  document.getElementById('Volume').innerHTML = 'Volume is: ' + Volume + ' cm²'
+  document.getElementById('Volume').innerHTML = 'Volume is: ' + Volume + ' cm³ '
 }
