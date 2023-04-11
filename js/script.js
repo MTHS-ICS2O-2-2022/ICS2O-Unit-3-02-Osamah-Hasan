@@ -10,13 +10,13 @@
  */
 function calculate () {
   // input
-  const L = parseInt(document.getElementById('L of Pyramid').value)
-  const H = parseInt(document.getElementById('H of Pyramid').value)
-  const W = parseInt(document.getElementById('W of Pyramid').value)
+  const length = parseInt(document.getElementById('length of Pyramid').value)
+  const height = parseInt(document.getElementById('H of Pyramid').value)
+  const width = parseInt(document.getElementById('W of Pyramid').value)
 
   // process
-  const Volume = (L * H * W) / 3
+  const volume = (length * height * width) / 3
 
   // output
-  document.getElementById('Volume').innerHTML = 'Volume is: ' + Volume + ' cm³ '
+  document.getElementById('Volume').innerHTML = 'Volume is: ' + volume + ' cm³ '
 }
